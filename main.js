@@ -17,7 +17,7 @@ if (close) {
 
 /* CreateProduct Page */
 
-const API_KEY = "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"
+const API_KEY = "API_KEY"
 
 const submitIcon = document.querySelector("#submit-icon");
 const inputElement = document.querySelector("input");
