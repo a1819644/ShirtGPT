@@ -558,11 +558,11 @@ input {
 }
 
 #submit-icon {
-    font-size: 25px;
+    font-size: 30px;
     position: absolute;
-    top: 5px;
-    right: 30px;
-    color: #088178;
+    top: 2px;
+    right: 20px;
+    color: #207d6d;
     cursor: pointer;
 }
 
@@ -589,7 +589,63 @@ input {
 .image-container:hover {
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
 }
-
+    /* image */
+.container {
+    position: inherit;
+    
+}
+.container .imge-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    padding: 10px;
+}
+.container .imge-container .image {
+    height: 350px;
+    width: 350px;
+    box-shadow: 0 5px 15px rgba(0,0,0, .1);
+    overflow: hidden;
+    cursor: pointer;
+}
+.container .imge-container .image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transform: .2s linear;
+}
+.container .imge-container .image:hover img{
+    transform: scale(1.1);
+}
+.container .popup-image {
+    position: fixed;
+    top: 0; left: 0;
+    background: rgba(0, 0, 0, 0.9);
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    display: none;
+}
+.container .popup-image span {
+    position: absolute;
+    top: 12%;
+    right: 10px;
+    font-size: 40px;
+    font-weight: bolder;
+    color: #fff;
+    cursor: pointer;
+    z-index: 100;
+}
+.container .popup-image img {
+    position: absolute;
+    top:60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid #fff;
+    border-radius: 5px;
+    width: 750px;
+    object-fit: cover;
+}
 
 
 /* About Page */
@@ -912,7 +968,7 @@ input {
     #hero {
         height: 70vh;
         padding: 0 80px;
-        background-position: top 10% left 12vh;
+        background-position: top 30% right 40%;
     }
 
     #hero button {
@@ -945,8 +1001,28 @@ input {
     }
 
     /* Create Page */
+   
+    input {
+        width: 100%;
+        font-size: 18px;
+        box-shadow: rgb(236, 238, 239) 0 20px 30px -5px;
+        box-sizing: border-box;
+    }
+    #submit-icon {
+        font-size: 28px;
+        position: absolute;
+        top: 2px;
+        right: 0.9rem;
+        color: #207d77;
+        cursor: pointer;
+    }
+
     .bottom-section {
         justify-content: center;
+    }
+   
+    .container .popup-image img{
+        width: 95%;
     }
 
     /* Contact Page */
@@ -1044,6 +1120,20 @@ input {
 
     /* Contact Page */
 
+    input {
+        width: 80%;
+        font-size: 18px;
+        margin-left: 10%;
+        box-shadow: rgb(236, 238, 239) 0 20px 30px -5px;
+        box-sizing: border-box;
+    }
+    #submit-icon {
+        font-size: 25px;
+        position: absolute;
+        top: 2.8px;
+        right: 3.5rem;
+    }
+
     #contact-details {
         flex-direction: column;
     }
@@ -1082,4 +1172,5 @@ input {
         width: 100%;
         padding: 20px;
     }
+
 }
