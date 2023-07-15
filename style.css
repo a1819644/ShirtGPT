@@ -599,7 +599,7 @@ input {
     flex-wrap: wrap;
     gap: 10px;
     justify-content: center;
-    padding: 10px;
+    padding: 5px;
 }
 .container .imge-container .image {
     height: 350px;
@@ -1003,8 +1003,9 @@ input {
     /* Create Page */
    
     input {
-        width: 100%;
+        width: 90%;
         font-size: 18px;
+        margin-left: 5%;
         box-shadow: rgb(236, 238, 239) 0 20px 30px -5px;
         box-sizing: border-box;
     }
@@ -1012,7 +1013,7 @@ input {
         font-size: 28px;
         position: absolute;
         top: 2px;
-        right: 0.9rem;
+        right: 2.5rem;
         color: #207d77;
         cursor: pointer;
     }
@@ -1020,6 +1021,7 @@ input {
     .bottom-section {
         justify-content: center;
     }
+
    
     .container .popup-image img{
         width: 95%;
@@ -1120,19 +1122,7 @@ input {
 
     /* Contact Page */
 
-    input {
-        width: 80%;
-        font-size: 18px;
-        margin-left: 10%;
-        box-shadow: rgb(236, 238, 239) 0 20px 30px -5px;
-        box-sizing: border-box;
-    }
-    #submit-icon {
-        font-size: 25px;
-        position: absolute;
-        top: 2.8px;
-        right: 3.5rem;
-    }
+   
 
     #contact-details {
         flex-direction: column;
