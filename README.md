@@ -1,7 +1,12 @@
-# Wesite
+# shirtGPT
 
-This Project has E-commers website useing HTML, CSS and JaveScript. It was forntend website.
+This Project has E-commers website useing. The AI-generated images as they modify their inputs.
 
-### Wesite Image
+## Forntend
+- HTML
+- CSS 
+- JaveScript 
 
-![screenshot](C:\Users\priya\OneDrive\Pictures\Screenshots\2023-07-15 (1).png)
+### Websbite Images
+
+![screenshot](/img/screenshot/web.png)
