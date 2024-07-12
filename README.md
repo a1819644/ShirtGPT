@@ -1,12 +1,12 @@
-# shirtGPT
+# ShirtGPT
 
-This Project has E-commers website useing. The AI-generated images as they modify their inputs.
+This Project has an E-commerce website that allows its users to imagine anything they would to be printed on their clothes. This is an ongoing project, where Im working as frontend and backend developer with my two mates.
 
 ## Forntend
 - HTML
 - CSS 
 - JaveScript 
 
-### Websbite Images
+### Website Images
 
 ![screenshot](/img/screenshot/web.png)
